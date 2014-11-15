@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<LinearLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content" 
+       android:orientation="horizontal"
+       >
+       
+       <TextView 
+           android:layout_width="wrap_content" 
+           android:layout_height="fill_parent"
+           android:text="Valor A:"
+           android:textSize="15dp"
+           />
+       
+       <EditText 
+           android:id="@+id/edtxtA"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:text=""
+           android:textSize="15dp"
+           />
+       
+   </LinearLayout>
+   
+    <LinearLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content" 
+       android:orientation="horizontal"
+       >
+       
+       <TextView 
+           android:layout_width="wrap_content" 
+           android:layout_height="fill_parent"
+           android:text="Valor B:"
+           android:textSize="15dp"
+           />
+       
+       <EditText 
+           android:id="@+id/edtxtB"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:text=""
+           android:textSize="15dp"
+           />
+       
+   </LinearLayout>	
+   
+   <LinearLayout 
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content" 
+       android:orientation="horizontal"
+       >
+       
+       <Button
+           android:id="@+id/btnBindService"
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:text="Conectar"
+           android:textSize="10dp"
+           />
+       
+       <Button 
+           android:id="@+id/btnSoma"
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:text="Soma" 
+           android:textSize="10dp"
+           />´
+           
+                  
+       <Button 
+           android:id="@+id/btnSomaParcelable"
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:text="Soma c/ Parcelable" 
+           android:textSize="10dp"
+           />
+       
+     </LinearLayout>
+     
+    <LinearLayout 
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content" 
+       android:orientation="horizontal"
+       >
+       
+       <Button
+           android:id="@+id/btnUnbindService"
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:text="Desconectar"
+           android:textSize="10dp"
+           />       
+       
+   </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+  TAREFA
+  - Adicione a propriedade referente a configuração do widget
+  - É preciso especificar o nome completo da Activity utilizada  
+ -->
+ 
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:minHeight="72dp" 
+    android:updatePeriodMillis="0" 
+    android:initialLayout="@layout/main" 
+    android:minWidth="144dp"    
+    >
+    
+
+</appwidget-provider>

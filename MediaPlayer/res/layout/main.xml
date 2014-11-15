@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/bResLocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recurso local"
+        android:onClick="onClick"  />
+    
+    <Button
+        android:id="@+id/bURIin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="URI Interna" 
+        android:onClick="onClick" />
+    
+    <Button
+        android:id="@+id/bURIext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="URI Externa (streaming)" 
+        android:onClick="onClick" />
+    
+    <Button
+        android:id="@+id/bURIextAsync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="URI Externa (streaming) c/ Async" 
+        android:onClick="onClick" />
+    
+
+</LinearLayout>

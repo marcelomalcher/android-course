@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="paises">		
+		<item name="brasil">Brasil</item>
+        <item name="eua">Estados Unidos</item>
+		<item name="russia">Russia</item>
+		<item name="japao">Japão</item>		
+	</string-array>
+</resources>
